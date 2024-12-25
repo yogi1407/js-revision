@@ -1,6 +1,6 @@
 const accId = 123456
 let accountEmail = "yogi@google.com"
-var accountPass = "1234"
+var accountPass = "1234".  // least used and must not be used
 accountCity = "jaipur"
 let accountState = null;
 console.log(accId)
