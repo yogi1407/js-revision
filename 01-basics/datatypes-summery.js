@@ -48,9 +48,39 @@ const myFunction = function () {
 
 
 
-console.log(typeof arrayHeros);
-console.log(typeof myFunction);
+// console.log(typeof arrayHeros);
+// console.log(typeof myFunction);
 
 // to study :- https://tc39.es/ecma262/#sec-ecmascript-data-types-and-values
 
 
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//  there are two types of memory 
+// 1) stack 2) heap
+// stack is used in premitive type
+// heap is  used in non-primitive type
+
+
+let myName = "YogendraKatara"
+let anotherName = myName
+anotherName = "chaiOrCode"
+ 
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    Email : "user@gmail.com"
+    //  lol : "user@ybl"
+}
+
+let userTwo = userOne
+
+
+userTwo.Email = "yogi@gmail.com"
+
+console.log(userOne.Email);
+console.log(userTwo.Email);
