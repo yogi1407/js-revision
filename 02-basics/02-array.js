@@ -17,5 +17,11 @@ console.log(useableArr);
 
 console.log(Array.isArray("yogi"));
 console.log(Array.from("yogi"));
-console.log(Array.from({name : "yogi"}));
+console.log(Array.from({name : "yogi"}));//this is an intresting case in which it'll return a empty array
 
+let length1 = 10
+let length2 = 100
+let length3 = 100
+
+
+console.log(Array.of(length1 , length2 , length3));
