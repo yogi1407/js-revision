@@ -33,3 +33,52 @@ function userLoggedIn(username = "no one"){
     
 }
 // console.log(userLoggedIn());
+
+// function CalculateCartPrice(...num1){          
+//     //.      " ... " this is rest operator
+//  return num1
+// }
+// console.log(CalculateCartPrice(400 ,4, 900));
+function CalculateCartPrice(val1 , val2 , ...num1){          
+    //.      " ... " this is rest operator
+ return num1 
+}
+// console.log(CalculateCartPrice(400 ,420, 900 , 2000));
+
+
+
+
+
+// passing object to function 
+const user = {
+    username: "yogi",
+    price: "1090"
+}
+
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.username} and price is ${anyObject.price} `);
+    
+}
+// handleObject(user)
+handleObject({
+    username : "sammy",
+    price : "3999"
+})
+// passing array to function
+
+const myNewArr = [400 , 300 , 200 , 100]
+
+function returnSecondValue(getArr){
+    return getArr[3]
+}
+
+console.log(returnSecondValue([200 , 800 , 700 , 300]));
+
+
+
+
+
+
+
+
+
