@@ -24,11 +24,11 @@ const anotherString = gameName.slice(-7 , 3)
 
 const newStringone = "     yogi.   "
 // console.log(newStringone);
-// console.log(newStringone.trim());
+console.log(newStringone.trim());
 
 const url = "https://www.linkedin.com/in/yogendra%20katara%20822a68192/"
 // console.log(url.replaceAll('%20' , '-'));
 
-console.log(url.includes('%25'));
-console.log(gameName.split('-'));
+// console.log(url.includes('%25'));
+// console.log(gameName.split('-'));
 
